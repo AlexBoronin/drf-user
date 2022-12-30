@@ -21,16 +21,15 @@ const AuthorItem = ({author}) => {
 
 const AuthorList = ({authors}) => {
     return (
-
         <table border="1" cellspacing="0" cellpadding="0" bgcolor="#00ced1">
             <th>
-                First name
+                Position
+            </th>
+            <th>
+                First Name
             </th>
             <th>
                 Last Name
-            </th>
-            <th>
-                Birthday year
             </th>
             <th>
                 Email
