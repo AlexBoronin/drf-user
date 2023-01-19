@@ -143,3 +143,5 @@ REST_FRAMEWORK = {
     'PAGE_SIZE': 1
 
 }
+
+
