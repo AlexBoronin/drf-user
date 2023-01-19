@@ -22,10 +22,11 @@ router = DefaultRouter()
 router.register('authors', AuthorModelViewSet)
 router.register('project', ProjectModelViewSet)
 router.register('todo', ToDoModelViewSet)
+router.register('my', MyAPIView, basename='my')
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api-auth/', include('rest_framework.urls')),
     path('api/', include(router.urls)),
-    path('myapi/', MyAPIView.as_view()),
 ]
