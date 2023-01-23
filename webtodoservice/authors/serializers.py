@@ -1,6 +1,4 @@
 from rest_framework.serializers import HyperlinkedModelSerializer, ModelSerializer
-from rest_framework.serializers import HyperlinkedModelSerializer
-from rest_framework.serializers import HyperlinkedModelSerializer, ModelSerializer
 from .models import Author, Project, ToDo
 
 
