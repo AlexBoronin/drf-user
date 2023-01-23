@@ -138,6 +138,9 @@ REST_FRAMEWORK = {
         'rest_framework.renderers.BrowsableAPIRenderer',
         # 'rest_framework.renderers.AdminRenderer',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c360f5a12526693d3881e2ab247d62c381240e1f
     ],
     'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend'],
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
@@ -146,7 +149,10 @@ REST_FRAMEWORK = {
 }
 
 
+<<<<<<< HEAD
 =======
     ]
 }
 >>>>>>> a6fdf1940d4fb5f280e2c6ee5172eafc6ef2be34
+=======
+>>>>>>> c360f5a12526693d3881e2ab247d62c381240e1f
