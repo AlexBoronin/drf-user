@@ -1,19 +1,17 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
-const AuthorItem = ({author}) => {
+const AuthorItem = ({authors}) => {
     return (
         <tr>
+            <td>
+                <Link to={'author/${author.id}'}> {author.id}</Link>
+            </td>
             <td>
                 {author.username}
             </td>
             <td>
-                {author.firstname}
-            </td>
-            <td>
                 {author.lastname}
-            </td>
-            <td>
-                {author.email}
             </td>
         </tr>
     )
@@ -23,18 +21,15 @@ const AuthorList = ({authors}) => {
     return (
         <table border="1" cellspacing="0" cellpadding="0" bgcolor="#00ced1">
             <th>
-                Position
+                id
             </th>
             <th>
-                First Name
+                username
             </th>
             <th>
-                Last Name
+                lastname
             </th>
-            <th>
-                Email
-            </th>
-            {authors.map((author) => <AuthorItem author={author} />)}
+            {authors.map((author) => <AuthorItem author={author}/>)}
         </table>
     )
 }
