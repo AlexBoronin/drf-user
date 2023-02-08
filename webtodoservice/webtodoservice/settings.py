@@ -146,3 +146,7 @@ REST_FRAMEWORK = {
     'PAGE_SIZE': 1,
 
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 05f150ccafc96feb969e60f18f546f530547b60f
