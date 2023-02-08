@@ -19,6 +19,7 @@ from rest_framework.routers import DefaultRouter
 from authors.views import AuthorModelViewSet, ProjectModelViewSet, ToDoModelViewSet, MyAPIView
 from rest_framework.authtoken.views import obtain_auth_token
 
+
 router = DefaultRouter()
 router.register('authors', AuthorModelViewSet)
 router.register('project', ProjectModelViewSet)
